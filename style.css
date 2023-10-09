@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.landing-page{
+
+    height: 100vh;
+
+    background: linear-gradient(rgb(0, 0, 0, 0.3),rgb(0, 0, 0, 0.5)), url(images/house\ cleaning.jpeg);
+    background-size: cover;
+    background-position:center;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;   
+
+}
+.navbar h1{
+    font-weight: 700;
+    flex: 1;
+    font-size: 35px;
+}
+.list{
+    display: flex;
+    gap: 2em;
+}
+
+.list li{
+    list-style: none;
+}
+.list a {
+    text-decoration: none;
+    color: white;
+}
+.uss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.us{
+    margin-top: 10%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 50px;
+    color: rgb(240, 233, 233);
+}
+.button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+}
+.button:hover{
+    background: black;
+}
+.button a:hover{
+    color: white;
+}
+#about-us{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-top: 20px;
+}
+
+.write-up{
+    line-height: 30px;
+}
+#about-us img{
+    height: 600px;
+    height: 400px;
+}
+.ten{
+    font-size: 70px;
+}
+.learn-more{
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+.learn-more:hover{
+    background: white;
+    color: black;
+}
+.our-provide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.our{
+    font-size: 25px;
+}
+.provide{
+    font-size: 50px;
+}
+.world{
+    text-align: center;
+    margin: 20px;
+}
+.our-service{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card img{
+    width: 250px;
+    height: 250px;
+}
+.card1, .card3{
+    /* border: 1px solid red; */
+    padding: 15px;
+    height: 400px;
+    background-color: grey;
+}
+.card2{
+    height: 100%;
+    padding: 15px;
+    background-color: grey;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.detail h1{
+    margin-bottom: 10px;
+}
+.cardbutton{
+    margin-top: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+.cardbutton:hover{
+    background: white;
+    color: black;
+}
+
+.cardbutton a{
+    text-decoration: none;
+    color: white;
+}
+.cardbutton a:hover{
+    color: black;
+}
+.pick-us{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+.expert-cleaners img{
+    height: 200px;
+    width: 200px;
+}
+.expert-cleaners{
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+.why-us{
+    display: flex;
+}
+.why-chooseus{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    margin-top: 200px;
+}
+.why-chooseus h1{
+    font-size: 30px;
+}
+.why{
+    font-size: 50px;
+}
+.why2{
+    font-size: 20px;
+}
+i{
+    color: black;
+    padding: 5px;
+    gap: 2em;
+}
+
+.more{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: grey;
+}
+.useful-link li{
+    list-style: disc;
+}
+.stayupdated-form{
+    margin-top: 10px;
+    padding: 5px;
+}
